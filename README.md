@@ -36,6 +36,36 @@ Aplicação desktop desenvolvida em C# para criação e personalização de grá
 
 ---
 
+
+
+### 02 — Chat TCP em Tempo Real | Windows Forms
+
+Aplicação de chat com servidor e cliente desktop, desenvolvida em C# usando sockets TCP e threads.
+
+![Servidor e clientes conversando](https://raw.githubusercontent.com/darlanrosendo/chat-tcp-csharp/main/docs/chat-funcionando.jpg)
+
+**Funcionalidades:**
+
+- Servidor que atende vários clientes ao mesmo tempo (uma thread por cliente).
+- Mensagens enviadas para todos os usuários conectados.
+- Avisos de entrada e saída de usuários.
+- Bloqueio de nomes repetidos e do nome reservado "Administrador".
+- Log do servidor com horário de cada evento.
+- Encerramento organizado: ao fechar o servidor, os clientes são avisados sem travar.
+
+**O que aprendi e apliquei:**
+
+- Comunicação em rede com `TcpListener` e `TcpClient`.
+- Programação com múltiplas threads e controle de concorrência com `lock`.
+- Atualização segura da interface a partir de outras threads (`BeginInvoke`).
+- Tratamento de erros de rede para que a falha de um cliente não derrube o servidor.
+- Refatoração de código: correção de loop infinito, remoção de duplicação e melhoria de nomes.
+
+🔗 **Repositório:** [chat-tcp-csharp](https://github.com/darlanrosendo/chat-tcp-csharp)
+
+---
+
+
 ## Sobre mim
 
 Sou Darlan Rosendo, desenvolvedor em constante aprendizado e aprimoramento profissional.
