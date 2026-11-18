@@ -65,6 +65,23 @@ Aplicação de chat com servidor e cliente desktop, desenvolvida em C# usando so
 
 ---
 
+### 03 — JoKenPo | Windows Forms
+
+Jogo de Pedra, Papel e Tesoura desenvolvido em C# onde o jogador enfrenta o computador.
+
+**Funcionalidades:**
+
+- Escolha da jogada com botões ilustrados.
+- Jogada do computador gerada aleatoriamente.
+- Exibição lado a lado das jogadas do jogador e do PC.
+- Resultado visual de vitória, derrota ou empate.
+- Lógica do jogo separada da interface (classe `Game`).
+
+![JoKenPo](https://raw.githubusercontent.com/darlanrosendo/JoKenPo/master/docs/screenshot.png)
+
+🔗 [Ver repositório](https://github.com/darlanrosendo/JoKenPo)
+
+---
 
 ## Sobre mim
 
