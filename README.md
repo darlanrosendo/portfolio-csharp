@@ -83,6 +83,25 @@ Jogo de Pedra, Papel e Tesoura desenvolvido em C# onde o jogador enfrenta o comp
 
 ---
 
+### 03 — Socket Arquivos | Windows Forms
+
+Aplicação **cliente-servidor** para transferência de arquivos via **TCP Sockets**.
+O servidor recebe e salva os arquivos, com log em tempo real do tamanho recebido; o cliente escolhe e envia o arquivo.
+
+**Destaques:**
+- Comunicação em rede com `System.Net.Sockets`
+- Protocolo próprio: tamanho do nome + nome + conteúdo do arquivo
+- Execução em segundo plano com `Task`, sem travar a interface
+- Correção de bugs de leitura do fluxo TCP (contagem de bytes, fechamento do socket e detecção do fim da transmissão)
+
+**Tecnologias:** C#, .NET, Windows Forms, TCP Sockets
+
+![Socket Arquivos](https://raw.githubusercontent.com/darlanrosendo/SocketArquivosWinForms/main/docs/screenshot.jpeg)
+
+🔗 [Ver repositório](https://github.com/darlanrosendo/SocketArquivosWinForms)
+
+---
+
 ## Sobre mim
 
 Sou Darlan Rosendo, desenvolvedor em constante aprendizado e aprimoramento profissional.
